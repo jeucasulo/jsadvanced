@@ -21,6 +21,7 @@
         #hora = null;
         #alteracao = null;
         #email = null;
+        // constructor({id,nome,data,hora, alteracao,email}){ works ass well
         constructor({id,nome,data,hora, alteracao,email}={id,nome,data,hora, alteracao,email}){
             this.#id=id
             this.#nome=nome
